@@ -1,0 +1,7 @@
+---
+- name: Sample Playbook
+  hosts: localhost
+  become: false
+  tasks:
+    - name: Ping test
+      ansible.builtin.ping:
