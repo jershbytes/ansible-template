@@ -1,4 +1,5 @@
 ansible 
 ansible-lint 
 ansible-navigator 
+ansible-vault
 awxkit
