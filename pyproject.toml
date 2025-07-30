@@ -1,0 +1,13 @@
+[project]
+name = "ansible-template"
+version = "0.1.0"
+description = "This repository is a minimal, best-practice template for managing Ansible playbooks in a Python virtual environment."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ansible>=11.8.0",
+    "ansible-lint>=25.7.0",
+    "ansible-navigator>=25.5.0",
+    "ansible-vault>=4.1.0",
+    "awxkit>=24.6.1",
+]

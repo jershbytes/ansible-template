@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
+
 set -e
 
-# Create and activate virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
-
-# Upgrade pip and install Python deps
-pip install --upgrade pip
-pip install -r requirements.txt
+# Create and activate virtual environment and Install packages
+uv venv .venv && uv sync
 
 # Install Ansible collections
 ansible-galaxy collection install -r requirements.yml

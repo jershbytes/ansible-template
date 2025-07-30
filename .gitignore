@@ -1,4 +1,10 @@
-.venv/
+# Python-generated files
 __pycache__/
-*.retry
-*.log
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
