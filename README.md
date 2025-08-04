@@ -65,7 +65,7 @@ ansible-lint playbook.yml
 ## 📚 Notes
 
 - The `.venv/` folder is created locally and ignored by git
-- You can modify `requirements.txt` or `requirements.yml` to add Python or Ansible Galaxy dependencies
+- You can modify `pyproject.toml` or `requirements.yml` to add Python or Ansible Galaxy dependencies
 
 ## 🧩 Collections Installed
 
