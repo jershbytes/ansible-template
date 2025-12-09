@@ -39,7 +39,7 @@ ansible/
 ├── playbook.yml            # Example playbook
 ├── pyproject.toml          # Python dependencies and project info
 ├── requirements.yml        # Ansible Galaxy collections
-├── setup.sh                # Script to set up the environment
+├── Makefile                # Maekfile script to set up the environment
 └── .gitignore              # Git exclusions
 ```
 
