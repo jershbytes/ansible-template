@@ -19,13 +19,14 @@ Clone the repo and set up the environment:
 
 ```bash
 git clone https://github.com/jershbytes/ansible-template.git ansible
-cd ansible && bash setup.sh
 ```
 
-## ✅ When finished, activate the virtual environment
-
-```bash
-source .venv/bin/activate
+```makefile
+Available targets:
+  make setup              - Full setup (venv + install dependencies + collections)
+  make venv               - Create and activate virtual environment
+  make install-collections - Install Ansible collections
+  make clean              - Remove virtual environment
 ```
 
 ## 📁 Project Structure
