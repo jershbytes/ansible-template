@@ -1,14 +1,14 @@
-. PHONY: setup venv install-collections help
+. PHONY: setup venv install-collections help clean
 
 # Default target
-. DEFAULT_GOAL := help
+.DEFAULT_GOAL := help
 
 # Variables
 VENV_DIR := .venv
 PYTHON := python3
 UV := uv
 
-help:
+help: 
 	@echo "Available targets:"
 	@echo "  make setup              - Full setup (venv + install dependencies + collections)"
 	@echo "  make venv               - Create and activate virtual environment"
@@ -16,7 +16,7 @@ help:
 	@echo "  make clean              - Remove virtual environment"
 
 setup:  venv install-collections
-	@echo "✅ Environment ready. Activate it with: source $(VENV_DIR)/bin/activate"
+	@echo "✅ Environment ready.  Activate it with: source $(VENV_DIR)/bin/activate"
 
 venv:
 	$(UV) venv $(VENV_DIR) && $(UV) sync
