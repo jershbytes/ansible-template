@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Ansible Environment
+*.retry
+.ansible/
+.vault_pass

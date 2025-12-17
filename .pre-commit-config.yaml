@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.37.1
+    hooks:
+      - id: yamllint
+
+  - repo: https://github.com/ansible/ansible-lint
+    rev: v25.12.1
+    hooks:
+      - id: ansible-lint

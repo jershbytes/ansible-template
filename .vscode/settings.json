@@ -1,4 +1,8 @@
 {
-  "ansible.python.interpreterPath": "/bin/python3",
-  "ansible.validation.lint.path": "ansible-lint"
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python3",
+  "ansible.python.interpreterPath": "${workspaceFolder}/.venv/bin/python3",
+  "ansibleLint.enabled": true,
+  "yaml.validate": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true
 }
