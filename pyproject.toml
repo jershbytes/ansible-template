@@ -8,7 +8,8 @@ dependencies = [
     "ansible-dev-tools>=25.9.0",
     "ansible-vault>=4.1.0",
     "awxkit>=24.6.1",
-    "pre-commit>=4.5.1,
-    "yamllint>=1.37.1",
+    "pre-commit>=4.5.1",
+    "yamllint>=1.37.1"
 ]
+
 
